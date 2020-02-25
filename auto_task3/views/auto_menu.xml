@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <menuitem id="parent_menu" name="قطع غيار" sequence="0"/>
+
+    <menuitem id="product_template_action_product" name="قطع غيار"  action="stock.product_template_action_product"
+              parent="parent_menu" sequence="1"/>
+
+    <menuitem id="product_template_purchase" name="purchase"  action="purchase.purchase_rfq"
+              parent="parent_menu" sequence="2"/>
+
+    <menuitem id="product_template_sale" name="Sale Order"  action="sale.action_quotations_with_onboarding"
+              parent="parent_menu" sequence="3"/>
+
+    <menuitem id="template_action_product" name="قطع غيار"  action="stock.product_template_action_product"
+              parent="stock.menu_stock_root" sequence="1"/>
+
+</odoo>

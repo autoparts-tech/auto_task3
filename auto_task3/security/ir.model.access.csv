@@ -1,0 +1,14 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+
+
+access_auto_user,auto_user,model_auto_task3,group_user,0,0,0,0
+access_sale_order_user,sale order,sale.model_sale_order,group_user,0,0,0,0
+access_purchase_order_user,purchase order,purchase.model_purchase_order,group_user,0,0,0,0
+
+
+
+access_auto_manger,auto_user,model_auto_task3,group_manger,1,1,1,1
+access_sale_order_manger,sale order,sale.model_sale_order,group_manger,1,1,1,1
+access_purchase_order_manger,purchase order,purchase.model_purchase_order,group_manger,1,1,1,1
+
+
